@@ -25,7 +25,7 @@ public class EmployeeController {
 	EmployeeService employeeservice;
 	@GetMapping("/welcome")
 	public @ResponseBody String HelloWorld(){
-		return "Hello world";
+		return "second";
 	}
 	@GetMapping("getall")
 	public List<Employee> getAllEmployees() {
